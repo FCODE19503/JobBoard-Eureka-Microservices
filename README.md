@@ -356,17 +356,7 @@ Les éléments suivants décrivent les mécanismes constatés dans le code ; ils
 - Le serveur est inclus dans `eureka-server/` ; son projet original externe reste préservé.
 - Préparer séparément la configuration de déploiement, la gestion des secrets et l'observabilité si le projet évolue au-delà de l'atelier local.
 
-## 18. Membres de l'équipe
-
-| Nom et prénom | Classe / groupe | Contribution |
-|---|---|---|
-| À compléter | À compléter | À compléter |
-| À compléter | À compléter | À compléter |
-| À compléter | À compléter | À compléter |
-
-Adapter le nombre de lignes à l'équipe réelle, sans déduire les membres des métadonnées présentes dans les sources.
-
-## 19. Conclusion
+## 18. Conclusion
 
 L'atelier démontre l'enregistrement de clients Spring Boot, Express et FastAPI dans Netflix Eureka. Le registre et la capture confirment quatre applications et six instances UP, dont deux Candidat et deux Meeting. Les endpoints hello Meeting et Notification répondent avec succès ; la découverte utilisée pour des appels métier et les fonctions métier encore absentes constituent les prochaines étapes.
 
